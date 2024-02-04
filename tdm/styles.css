@@ -1,0 +1,72 @@
+.navbar-custom {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: rgb(24, 0, 255); /* Text color */
+  font-size: 16px; /* Increased font size */
+}
+
+.navbar-custom .navbar-nav .nav-item.dropdown:hover .nav-link,
+.navbar-custom
+  .navbar-nav
+  .nav-item.dropdown:hover
+  .dropdown-menu
+  a:hover {
+  color: rgb(
+    24,
+    0,
+    255
+  ); /* Hover text color for the main Services menu and dropdown items */
+}
+
+/* Additional styles for the form */
+.custom-form {
+  margin-top: 80px; /* Adjust the top margin to create space for the fixed navbar */
+  position: relative;
+}
+
+.form-select-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#hiddenFormSelects {
+  gap: 10px;
+}
+
+.form-row {
+  display: none;
+}
+
+.form-group {
+  flex-basis: calc(
+    15% - 10px
+  ); /* Adjust the width to fit 4 in a row (25% width) */
+  margin-bottom: 10px;
+}
+
+.show-more-btn,
+.hide-btn,
+.submit-btn {
+  font-size: 14px; /* Adjusted font size */
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* Center-align the buttons */
+  margin-top: 20px; /* Add margin for better spacing */
+}
+
+/* Adjusted font size for select labels and form-selects */
+.form-group label {
+  font-size: 12px;
+}
+
+.form-select {
+  font-size: 12px;
+}
