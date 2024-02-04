@@ -27,7 +27,7 @@ function submitForm() {
 // Function to fetch data from orders-data.json
 async function fetchData() {
   try {
-    const response = await fetch("orders-data.json");
+    const response = await fetch("./orders-data.json");
     const data = await response.json();
     return data;
   } catch (error) {
