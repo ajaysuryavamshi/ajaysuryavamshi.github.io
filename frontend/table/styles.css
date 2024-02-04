@@ -1,0 +1,12 @@
+/* .navbar-nav .nav-item:hover {
+            background-color: rgb(255, 255, 255);
+        } */
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: rgb(24, 0, 255); /* Change to your preferred hover text color */
+}
+
+.table {
+  margin-top: 60px; /* Adjust the top margin to create space for the fixed navbar */
+  position: relative;
+}
