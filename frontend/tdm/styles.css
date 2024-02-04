@@ -44,7 +44,7 @@
 
 .form-group {
   flex-basis: calc(
-    15% - 10px
+    14% - 10px
   ); /* Adjust the width to fit 4 in a row (25% width) */
   margin-bottom: 10px;
 }
@@ -52,7 +52,7 @@
 .show-more-btn,
 .hide-btn,
 .submit-btn {
-  font-size: 14px; /* Adjusted font size */
+  font-size: 16px; /* Adjusted font size */
 }
 
 .button-row {

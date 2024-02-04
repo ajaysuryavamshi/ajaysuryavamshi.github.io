@@ -65,7 +65,7 @@
       <form onsubmit="event.preventDefault(); submitForm();">
         <div class="form-select-group" id="formSelectGroup">
           <div class="form-group">
-            <label for="environment">Select Environment</label>
+            <label for="environment"><b>Environment</b></label>
             <select class="form-select" id="environment">
               <option value="PreProd">PreProd</option>
               <option value="Test1">Test1</option>
@@ -75,7 +75,7 @@
           </div>
 
           <div class="form-group">
-            <label for="networkType">Select Network Type</label>
+            <label for="networkType"><b>Network Type</b></label>
             <select class="form-select" id="networkType">
               <option value="All">All</option>
               <option value="CORE">CORE</option>
@@ -84,7 +84,7 @@
           </div>
 
           <div class="form-group">
-            <label for="purchaseType">Select Purchase Type</label>
+            <label for="purchaseType"><b>Purchase Type</b></label>
             <select class="form-select" id="purchaseType">
               <option value="All">All</option>
               <option value="BYOD">BYOD</option>
@@ -94,7 +94,7 @@
           </div>
 
           <div class="form-group">
-            <label for="orderType">Select Order Type</label>
+            <label for="orderType"><b>Order Type</b></label>
             <select class="form-select" id="orderType">
               <option value="All">All</option>
               <option value="Activation">Activation</option>
@@ -103,7 +103,7 @@
           </div>
 
           <div class="form-group">
-            <label for="planName">Select Plan Name</label>
+            <label for="planName"><b>Plan Name</b></label>
             <select class="form-select" id="planName">
               <option value="All">All</option>
               <option value="Visible plan">Visible plan</option>
@@ -112,18 +112,30 @@
           </div>
 
           <div class="form-group">
-            <label for="mdnType">Select MDN Type</label>
+            <label for="mdnType"><b>MDN Type</b></label>
             <select class="form-select" id="mdnType">
               <option value="All">All</option>
               <option value="NEW">New</option>
               <option value="PORTIN">Port-In</option>
             </select>
           </div>
+
+          <div class="form-group">
+            <label for="records"><b>Records</b></label>
+            <select class="form-select" id="records">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+
         </div>
 
         <div class="form-row" id="hiddenFormSelects">
           <div class="form-group">
-            <label for="insurance">Select Insurance</label>
+            <label for="insurance"><b>Insurance</b></label>
             <select class="form-select" id="insurance">
               <option value="All">All</option>
               <option value="Yes">Yes</option>
@@ -132,13 +144,50 @@
           </div>
 
           <div class="form-group">
-            <label for="financing">Select Financing</label>
+            <label for="financing"><b>Financing</b></label>
             <select class="form-select" id="financing">
               <option value="All">All</option>
               <option value="Yes">Yes</option>
               <option value="No">No</option>
             </select>
           </div>
+
+          <div class="form-group">
+            <label for="tradeIn"><b>Trade-In</b></label>
+            <select class="form-select" id="tradeIn">
+              <option value="All">All</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="wearable"><b>Wearable</b></label>
+            <select class="form-select" id="wearable">
+              <option value="All">All</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="promotion"><b>Promotion</b></label>
+            <select class="form-select" id="promotion">
+              <option value="All">All</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="referral"><b>Referral</b></label>
+            <select class="form-select" id="referral">
+              <option value="All">All</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+
         </div>
 
         <div class="button-row">
