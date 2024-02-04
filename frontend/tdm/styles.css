@@ -70,3 +70,8 @@
 .form-select {
   font-size: 12px;
 }
+
+.table {
+  margin-top: 60px; /* Adjust the top margin to create space for the fixed navbar */
+  position: relative;
+}
