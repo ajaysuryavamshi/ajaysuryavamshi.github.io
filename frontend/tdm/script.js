@@ -4,11 +4,11 @@ function showMoreOrHideFormSelects() {
 
   if (hiddenFormSelects.style.display === "flex") {
     hiddenFormSelects.style.display = "none";
-    showMoreBtn.textContent = "Show More";
+    showMoreBtn.textContent = "Show more";
     resetFormSelectValues();
   } else {
     hiddenFormSelects.style.display = "flex";
-    showMoreBtn.textContent = "Reset";
+    showMoreBtn.textContent = "Show less";
   }
 }
 
